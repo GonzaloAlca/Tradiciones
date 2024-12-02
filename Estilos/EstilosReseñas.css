@@ -1,0 +1,192 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: AntonSC;
+    src: url(../fuente/AntonSC-Regular.ttf);
+}
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+
+#logo {
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-nav {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.home-nav li {
+    list-style: none;
+}
+
+
+.home-nav li a {
+    text-decoration: none;
+    /* color: white; */
+    color: brown;
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.home-nav li a:hover {
+    color: antiquewhite;
+}
+
+
+/*section*/
+
+.menu-nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+    padding: 20px;
+    position: fixed;
+    top: 200px;
+    z-index: 1;
+}
+
+.menu-nav li {
+    width: 150px;
+    list-style: none;
+    padding: 10px;
+    margin: 20px 0px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu-nav li:hover {
+    transition: ease 0.4s;
+
+    background-color: bisque;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url(../Imagenes/bg_mostaza.jpg);
+
+}
+
+
+
+
+.review-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-top: 200px;
+
+}
+
+.review {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.review:last-child {
+    border-bottom: none;
+}
+
+.review h3 {
+    color: #cd4949;
+    margin: 0;
+}
+
+.review p {
+    margin: 8px 0 0;
+}
+
+
+.add-review-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #cd4949;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.add-review-btn:hover {
+    background-color: #b71c1c;
+}
+
+/*Footer*/
+
+footer{
+    background-color: grey;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 30px;
+}
+
+.footer-container ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.footer-container ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}

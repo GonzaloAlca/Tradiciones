@@ -1,0 +1,127 @@
+@font-face {
+    font-family: AntonSC;
+    src: url(../fuente/AntonSC-Regular.ttf);
+    }
+@font-face{
+    font-family: Quando;
+    src: url(../fuente/sara/Quando-Regular.ttf);
+    }
+
+body{
+    background-color: #f5a21242 !important;
+    
+}
+
+ul.home-nav {
+    background: #ffffff00;
+}
+
+.s-menu {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 25px;
+padding-left: 150px;
+padding-right: 150px;
+margin: 50px;
+font-family: Quando;
+}
+
+.s-menu p{
+    text-align: justify;
+
+}
+
+.s-menu img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+    
+}
+
+.Galeriafila1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Galeriafila1 img {
+  width: 25%;  
+  height: auto;
+  object-fit: cover;
+  margin: 2px;
+}
+
+#main{
+    padding-left: 250px;
+    margin-top: 100px;
+    
+}
+
+#Galeriatitulo{
+    color: white;
+    font-family: AntonSC;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    background-image: url(../ImagenesGaleria/encabezadogaleria.jpg);
+    background-size: cover;
+    height: 300px;
+}
+#Galeriatitulo h1{
+    padding-top: 100px;
+}
+
+
+.Galeriafila2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Galeriafila2 img {
+    width: 33.34%;  
+    height: auto;
+    object-fit: cover;
+    margin: 2px;
+}
+.Galeriafila3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Galeriafila3 img {
+    width: 33.34%;  
+    height: auto;
+    object-fit: cover;
+    margin: 2px; 
+  }
+
+  .Galeriafila4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Galeriafila4 img {
+    width: 33.34%;  
+    height: auto;
+    object-fit: cover;
+    margin-bottom:20px;
+    margin: 2px;
+  }
+  .Galeriafila5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Galeriafila5 img {
+    width: 33.34%;  
+    height: auto;
+    object-fit: cover;
+    margin-bottom:20px;
+    margin: 2px;
+  }

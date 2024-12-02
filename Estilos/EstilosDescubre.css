@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: AntonSC;
+    src: url(../fuente/AntonSC-Regular.ttf);
+}
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+
+#logo {
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-nav {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.home-nav li {
+    list-style: none;
+}
+
+
+.home-nav li a {
+    text-decoration: none;
+    color: brown;
+    padding-right: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.home-nav li a:hover {
+    color: antiquewhite;
+}
+
+/*section*/
+
+.menu-nav {
+    display: flex;
+    justify-content: flex-start;
+    margin: 30px;
+    padding: 20px;
+    position: fixed;
+    top: 200px;
+    z-index: 1;
+}
+
+.menu-nav li {
+    width: 150px;
+    list-style: none;
+    padding: 10px;
+    margin: 20px 0px;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-nav li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.menu-nav li:hover {
+    transition: ease 0.4s;
+
+    background-color: bisque;
+}
+
+
+/*contenedor*/
+.contenedor {
+    display: flex;
+    width: 60%;
+    padding: 20px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.contenedortexto {
+    display: flex;
+    flex-direction: column;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../Imagenes/bg_mostaza.jpg);
+padding-left: 150px;
+
+}
+
+
+
+
+.contenedor img{
+    border: 5px solid #c5872a;
+    padding: 10px;
+    background-color: #c5872a;
+ 
+    border-radius: 50px;
+}
+
+.contenedor div{
+    width: 600px;
+    height: 60%;
+}
+main h1{
+    font-size: 40px;
+    padding: 10px;
+    margin: 20px;
+    margin-top: 200px;
+    color: white;
+    font-family: AntonSC;
+    font-weight: 500;
+
+}
+.contenedor p{
+    padding: 15px;
+    margin: 10px;
+    text-align: justify;
+    font-size: 30px;
+    color: white;
+
+}
+
+.contenedor h2{
+    margin: 10px;
+    color: white;
+    
+}
+
+
+
+/*Footer*/
+
+footer{
+    background-color: grey;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 30px;
+}
+
+.footer-container ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+.footer-container ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer p{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
